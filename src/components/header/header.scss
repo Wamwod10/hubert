@@ -1,0 +1,98 @@
+.header {
+    position: relative;
+
+    &__box {
+        background: url(2.png) no-repeat center center/cover;
+        width: 1500px;
+        right: 0;
+        height: 850px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    & .container {
+        padding-top: 84px;
+    }
+
+    &__title {
+        max-width: 600px;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 51px;
+        color: #333;
+
+        span {
+            font-weight: 800;
+            color: #2C3A67;
+        }
+    }
+
+    &__txt {
+        font-weight: 500;
+        font-size: 34px;
+        color: #333;
+        line-height: 50px;
+        max-width: 500px;
+        position: relative;
+        margin-left: 25px;
+        margin-top: 15px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 100px;
+            background: #2C3A67;
+            border-radius: 20px;
+            left: -25px;
+            top: 3px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 34px;
+            color: #2C3A67;
+            padding: 5px 20px;
+            background: #2C3A671A;
+            border-radius: 10px;
+        }
+    }
+
+    &__extra-box {
+        display: flex;
+        align-items: center;
+        column-gap: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    &__text {
+        max-width: 406px;
+        font-size: 22px;
+        color: #333;
+        font-weight: 500;
+        
+        span {
+            color: #595F71;
+            font-weight: 600;
+        }
+    }
+    
+    &__link {
+        font-size: 18px;
+        color: #fff;
+        padding: 25px 75px;
+        background: #F38B06;
+        border-radius: 10px;
+        display: block;
+        max-width: 330px;
+        border: 2px solid #fff;
+        transition: 0.3s;
+        
+        &:hover {
+            background: #fff;
+            border: 2px solid #F38B06;
+            color: #F38B06;
+        }
+    }
+}

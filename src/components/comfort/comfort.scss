@@ -1,0 +1,69 @@
+.comfort {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+    &__title-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__title {
+        font-size: 42px;
+        color: rgba(51, 51, 51, 1);
+        
+        & span {
+            font-weight: 700;
+        }
+    }
+    
+    &__txt {
+        color: rgba(35, 66, 120, 1);
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    
+    &__text {
+        font-size: 28px;
+        color: rgba(128, 129, 130, 1);
+        max-width: 514px;
+        text-align: left;
+    }
+    
+    &__box {
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__box-div {
+        width: 416px;
+        height: fit-content;
+        padding: 24px;
+        background: linear-gradient(90deg, #ffffff 0%, #f1f1f1 100%);
+        border-radius: 12px;
+        box-shadow: 0 0 20px 2px #c5c5c5;
+        transition: all 0.3s;
+        
+        &:hover {
+            transform: translateY(-20px);
+            background: linear-gradient(90deg, #e3932a 0%, #b05e4a 100%);
+        }
+    }
+    
+    &__box-title {
+        font-size: 28px;
+        color: rgba(51, 51, 51, 1);
+        font-weight: 600;
+        margin-top: 24px;
+    }
+    
+    &__box-txt {
+        color: rgba(51, 51, 51, 1);
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+}
