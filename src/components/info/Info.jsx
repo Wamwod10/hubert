@@ -4,9 +4,11 @@ import "./info.scss";
 const Info = () => {
   return (
     <div className='info'>
-        <div className="container">
-            
+      <div className="container">
+        <div className="info__box">
+          
         </div>
+      </div>
     </div>
   )
 }
