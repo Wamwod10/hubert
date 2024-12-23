@@ -8,6 +8,8 @@ import Nav from "./components/nav/Nav"
 import Hubert from './components/hubert/Hubert';
 import Comfort from './components/comfort/Comfort';
 import Info from './components/info/Info';
+import Admin from './components/admin/Admin';
+import Locate from './components/locate/Locate';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
     <Hubert/>
     <Comfort/>
     <Info/>
+    <Admin/>
+    <Locate/>
     </>
   )
 }

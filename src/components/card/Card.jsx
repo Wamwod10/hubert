@@ -3,7 +3,7 @@ import './card.scss';
 
 const Card = () => {
   const card = [
-    { id: 1, title: "50 WC. Одноконтурный. Настенный", price: "Ваша выплата = 5000 р", img: "../../../public/5.png" },
+    { id: 1, title: "50 WC. Одноконтурный. Настенный", price: "Ваша выплата = 5000 р", img: "/public/5.png" },
     { id: 2, title: "30 AGB. Одноконтурный. Настенный", price: "Ваша выплата = 5000 р", img: "/public/6.png" },
     { id: 3, title: "50 WCB. Одноконтурный. Настенный", price: "Ваша выплата = 5000 р", img: "/public/5.png" },
     { id: 4, title: "35 WLB. Одноконтурный настенный", price: "Ваша выплата = 3000 р", img: "/public/7.png" },
