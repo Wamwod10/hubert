@@ -18,7 +18,7 @@ const Card = () => {
     <div className="card">
       <div className="container">
         <h2 className="card__title">
-          Вы получаете <span>кэшбек за каждый</span> котел:
+          Вы получаете <span>кэшбек за каждый</span> котел:
         </h2>
         <div className="card__box">
           {card.map((item) => (
