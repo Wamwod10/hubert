@@ -10,6 +10,8 @@ import Comfort from './components/comfort/Comfort';
 import Info from './components/info/Info';
 import Admin from './components/admin/Admin';
 import Locate from './components/locate/Locate';
+import Contact from './components/contact/Contact';
+import ContactInfo from './components/contactInfo/ContactInfo';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
     <Info/>
     <Admin/>
     <Locate/>
+    <Contact/>
+    <ContactInfo/>
     </>
   )
 }
